@@ -1,6 +1,7 @@
 :root{
     --cor-principal: #FFF;
     --cor-destaque: #8E2424;
+    --cor-destaque-tranparente: #8e242410;
     --cor-texto-logo: #3A404E;
     --cor-texto-principal: #667085;
     --cor-texto-destaque: #101828;
@@ -125,4 +126,80 @@ header nav {
     font-weight: 400;
     color: var(--cor-texto-principal);
     line-height: 1.5rem;
+}
+
+#secao-vaga {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 6rem 7rem;
+    text-align: center;
+}
+
+#secao-vaga span{
+    color: var(--cor-destaque);
+    background-color: var(--cor-destaque-tranparente);
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    line-height: 1.25rem;
+}
+
+#secao-vaga h1{
+    color: var(--cor-texto-destaque);
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+
+#secao-vaga p{
+    color: var(--cor-texto-principal);
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+
+#secao-vaga img{
+    max-width: 1216px;
+    width: 100%;
+    margin: 0.5rem 0;
+}
+
+#secao-lista-vaga{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 0 5rem;
+    text-align: left;
+}
+
+.conteiner-vaga {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.conteiner-vaga h1{
+    color: var(--cor-texto-destaque);
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.vaga{
+    display: flex;
+    flex-direction: column;
+    border: 0.0625rem solid #aeaeae;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    gap: 2rem;
+}
+
+.vaga-titulo{
+    color: var(--cor-texto-destaque);
+    font-size: 1.125rem;
+}
+
+.vaga-informacao{
+    display: flex;
+    color: var(--cor-texto-principal);
+    gap: 1.5rem;
 }
